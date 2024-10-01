@@ -42,7 +42,10 @@ function main() {
     console.log("Secret for first test case constant c:", secret1);
 
     const secret2 = findSecret('testcase2.json');
-    console.log("Secret for second test case:", secret2);
+    console.log("Secret for second test case constant c:", secret2);
+
+    const secret3 = findSecret('testcase3.json');
+    console.log("Secret for third test case constant c:", secret3);
 }
 
 main();
